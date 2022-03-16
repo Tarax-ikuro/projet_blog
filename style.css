@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: solid 1px #84947B;
+  font-family: "futura";
+}
+
+header nav {
+  background: #F8F9F7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #2F2E2E;
+}
+
+header div {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div img {
+  width: 25%;
+  height: 150px;
+}
+
+header div h1 {
+  color: #84947B;
+}
+
+main {
+  margin-top: 70px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 70px;
+  font-family: "futura";
+  text-align: justify;
+}
+
+main .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .about img {
+  height: 250px;
+  width: 250px;
+  margin-right: 100px;
+  background-size: cover;
+}
+
+main .about section {
+  font-family: "futura";
+}
+
+main .about section h2 {
+  margin-bottom: 10px;
+}
+
+main .about section div {
+  width: 50px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  color: white;
+}
+
+main .about section p {
+  text-align: justify;
+}
+
+main .list .cards {
+  border: 1px solid #E1E9E1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "futura";
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+main .list .cards img {
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+}
+
+main .list .cards p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #84947B;
+}
+
+main .list .cards p svg {
+  margin-right: 2px;
+}
+
+main .list .cards .text {
+  border-bottom: 1px solid #84947B;
+}
+
+main .list .cards .text p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #2F2E2E;
+}
+
+main .list .cards .text button {
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  background: #84947B;
+  color: #F8F9F7;
+  border: hidden;
+  margin-bottom: 10px;
+}
+
+main .list .cards .commentaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+}
+
+main .list .cards .commentaire a {
+  text-decoration: none;
+  color: #2F2E2E;
+}
+
+main #connex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main #contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main input[type=submit] {
+  border: none;
+  color: #84947B;
+}
+
+table {
+  border: medium solid #6495ed;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  font-family: monospace;
+  border: thin solid #6495ed;
+  width: 50%;
+  padding: 5px;
+  background-color: #D0E3FA;
+  background-image: url(sky.jpg);
+}
+
+td {
+  font-family: sans-serif;
+  border: thin solid #6495ed;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+caption {
+  font-family: sans-serif;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #F8F9F7;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto";
+}
+
+footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer nav ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #2F2E2E;
+}
+
+footer nav ul li a svg {
+  height: 20px;
+  width: 20px;
+}
+/*# sourceMappingURL=style.css.map */

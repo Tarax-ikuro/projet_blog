@@ -1,0 +1,487 @@
+$color1: #F8F9F7;
+$color2: #84947B; //vert olive
+$color3: #E1E9E1;
+$color4: #2F2E2E;
+$color5: #aeb8ae;
+$color6: #d3e0d3;
+$color7: #8b8585;
+$color8: #b2996b;
+$color9: #ffffff;
+$color10: #dddddd;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//HEADER//////////////////////////////////////////////////////////////////////////////::::::
+header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px $color2;
+    font-family: "futura";
+
+    nav {
+        background: $color1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 50px;
+        width: 100%;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+
+
+
+
+
+            li {
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    color: $color4;
+
+                }
+            }
+        }
+    }
+
+    div {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 25%;
+            height: 150px;
+
+        }
+
+        h1 {
+            color: $color2;
+        }
+    }
+}
+
+//MAIN//////////////////////////////////////////////////
+main {
+    margin-top: 70px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 70px;
+    font-family: "futura";
+    text-align: justify;
+
+    //PAGE ABOUT////////
+    .about {
+        display: flex;
+
+
+        img {
+
+            height: 250px;
+            width: 250px;
+            margin-right: 100px;
+            background-size: cover;
+        }
+
+        section {
+            font-family: "futura";
+
+            h2 {
+                margin-bottom: 10px;
+            }
+
+            div {
+                width: 50px;
+                border-bottom: 1px solid black;
+                margin-bottom: 10px;
+                color: white;
+
+            }
+
+            p {
+                text-align: justify;
+            }
+        }
+    }
+
+    //////////////////////
+
+    //PAGE LIST////////
+    .list {
+        .cards {
+            border: 1px solid $color3;
+            display: flex;
+            flex-direction: column;
+            font-family: "futura";
+            padding-left: 10%;
+            padding-right: 10%;
+
+
+            img {
+                margin-top: 20px;
+                width: 100%;
+                height: 350px;
+
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                color: $color2;
+
+                svg {
+                    margin-right: 2px;
+                }
+
+
+
+            }
+
+            .text {
+
+                border-bottom: 1px solid $color2;
+
+
+                p {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    color: $color4;
+                }
+
+                button {
+                    margin-top: 10px;
+                    width: 100%;
+                    height: 30px;
+                    background: $color2;
+                    color: $color1;
+                    border: hidden;
+                    margin-bottom: 10px;
+
+                }
+            }
+
+            .commentaire {
+                display: flex;
+                align-content: center;
+                align-items: center;
+                height: 80px;
+
+                a {
+                    text-decoration: none;
+                    color: $color4;
+
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+    }
+
+    /////CONNEXION//////////////:
+
+    #connex {
+        display: flex;
+
+        align-items: center;
+        flex-direction: column;
+    }
+
+    ///////contact/////
+    #contact {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    input[type=submit] {
+        border: none;
+        color: $color2;
+    }
+
+
+
+
+}
+
+//////CONNEXION ADMIN 2///////////////////////////////////////////
+table {
+    border: medium solid #6495ed;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    font-family: monospace;
+    border: thin solid #6495ed;
+    width: 50%;
+    padding: 5px;
+    background-color: #D0E3FA;
+    background-image: url(sky.jpg);
+}
+
+td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+caption {
+    font-family: sans-serif;
+}
+
+//////CONNEXION ADMIN 3//////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// footer/////////////////////////////////////////////////::
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: $color1;
+    height: 50px;
+    align-items: center;
+    font-family: "Roboto";
+
+    nav {
+        ul {
+            display: flex;
+
+            li {
+                list-style-type: none;
+                margin-left: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: $color4;
+
+
+                    svg {
+                        height: 20px;
+                        width: 20px;
+
+
+                    }
+                }
+            }
+        }
+    }
+}
